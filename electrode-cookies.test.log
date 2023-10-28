@@ -1,0 +1,31 @@
+Invoking: clap test-only 
+[00:45:22] @xarc/run version 1.1.1 at /Users/s0s0p6u/Desktop/GTP/electrode/common/temp/node_modules/.pnpm/@xarc+run@1.1.1/node_modules/@xarc/run
+[00:45:22] node.js version v16.19.1 at /Users/s0s0p6u/nvm/nodejs/v16.19.1/bin/node
+[00:45:22] CWD is /Users/s0s0p6u/Desktop/GTP/electrode/packages/electrode-cookies
+[00:45:22] Loaded ./xclap.js
+[00:45:22] PATH already contains ./node_modules/.bin
+[00:45:22] Execute electrode/test-only as function
+[00:45:22] -Execute electrode/.test-only mocha -c test/spec
+
+
+  csindex
+    - .set should encode value
+    - .set should honor skipEncoding option
+
+  Hapi plugin
+    - should handle request.app.replyStates not being set
+    Test Hapi 16 plugin
+      - should support hapi 16 as default
+
+  cookies
+    - should set cookie
+    - should get cookie
+    - should get cookie by matching substring
+    ✓ should throw when request not passed in options
+
+
+  1 passing (73ms)
+  7 pending
+
+[00:45:34] >Done Execute electrode/.test-only mocha -c test/spec (11.71 sec)
+[00:45:34] Done Execute electrode/test-only as function (11.71 sec)
